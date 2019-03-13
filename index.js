@@ -10,4 +10,4 @@ const translateAwsError = error => {
     return error;
 }
 
-export default translateAwsError;
+module.exports = translateAwsError;
